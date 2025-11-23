@@ -86,9 +86,12 @@ int main() {
     cout<< "Inserisci la stringa: ";
     cin.getline(stringa, 50);
     Stringa s(stringa);
+    cout <<"Stringa stampata: ";
     s.Stampa(stringa);
     s.Palindroma(stringa);
-    s.Flip(stringa);
+    cout<<"Stringa al contrario: ";
     s.Reverse(stringa);
+    cout<<"Stringa flippata: ";
+    s.Flip(stringa);
     return 0;
 }
